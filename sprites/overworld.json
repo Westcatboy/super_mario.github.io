@@ -1,0 +1,126 @@
+{
+    "imageURL": "../img/tiles.png",
+    "tileW": 16,
+    "tileH": 16,
+    "tiles": [
+        {
+            "name":"ground",
+            "index": [0,0]
+        },
+        {
+            "name": "sky",
+            "index": [10,7]
+        },
+        {
+            "name":"chocolate",
+            "index": [3,0]
+        },
+        {
+            "name":"bricks",
+            "index": [1,0]
+        },
+        {
+            "name":"chance",
+            "index": [4,0]
+        },
+        {
+            "name":"chance-1",
+            "index": [5,0]
+        },
+        {
+            "name":"chance-2",
+            "index": [6,0]
+        },
+        {
+            "name": "pipe-insert-vert-left",
+            "index": [0,5]
+        },
+        {
+            "name": "pipe-insert-vert-right",
+            "index": [1,5]
+        },
+        {
+            "name": "pipe-vert-left",
+            "index": [0,6]
+        },
+        {
+            "name": "pipe-vert-right",
+            "index": [1,6]
+        },
+        {
+            "name": "cloud-1-1",
+            "index": [11,10]
+        },
+        {
+            "name": "cloud-1-2",
+            "index": [12,10]
+        },
+        {
+            "name": "cloud-1-3",
+            "index": [13,10]
+        },
+        {
+            "name": "cloud-2-1",
+            "index": [11,11]
+        },
+        {
+            "name": "cloud-2-2",
+            "index": [12,11]
+        },
+        {
+            "name": "cloud-2-3",
+            "index": [13,11]
+        },
+        {
+            "name": "cannon-1",
+            "index": [14,3]
+        },
+        {
+            "name": "cannon-2",
+            "index": [14,4]
+        },
+        {
+            "name":"cannon-3",
+            "index": [14,5]
+        },
+        {
+            "name": "coin",
+            "index": [15,0]
+        },
+        {
+            "name": "coin-1",
+            "index": [15,1]
+        },
+        {
+            "name": "coin-2",
+            "index": [15,2]
+        }
+
+    ],
+    "animations": [
+        {
+            "name":"chance",
+            "frameLen":0.15 ,
+            "frames": [
+                "chance",
+                "chance",
+                "chance-1",
+                "chance-2",
+                "chance-2",
+                "chance"
+            ]
+        },
+        {
+            "name":"coin",
+            "frameLen": 0.12,
+            "frames": [
+                "coin",
+                "coin",
+                "coin-1",
+                "coin-2",
+                "coin-2",
+                "coin"
+            ]
+        }
+    ]
+}

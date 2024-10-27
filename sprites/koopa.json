@@ -1,0 +1,45 @@
+{
+    "imageURL": "../img/sprites.png",
+    "frames": [
+        {
+            "name":"walk-1",
+            "rect": [14,0,16,24],
+            "tileH": 24,
+            "tileW": 16
+        },
+        {
+            "name": "walk-2",
+            "rect": [15,0,16,24]
+        },
+        {
+            "name": "hiding",
+            "rect":[13,11,16,16]
+
+        },
+        {
+            "name": "hiding-with-legs",
+            "rect":[13,12.5,16,16]
+        }
+    ],
+    "animations": [
+        {
+            "name": "walk",
+            "frameLen": 0.3,
+            "frames": [
+                "walk-1",
+                "walk-2"
+            ]
+        },
+        {
+            "name": "wake",
+            "frameLen": 0.15,
+            "frames": [
+                "hiding-with-legs",
+                "hiding",
+                "hiding-with-legs",
+                "hiding",
+                "hiding-with-legs"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "imageURL": "../img/sprites.png",
+    "frames": [
+        {
+            "name": "bullet",
+            "rect": [8,0,16,16]
+        }
+    ]
+}

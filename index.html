@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>super Mario</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            height: 100%;
+            background: #000000;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #screen {
+            image-rendering: pixelated;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+<canvas id="screen" width="640" height="250"></canvas>
+<div id="test"></div>
+</body>
+<script src="src/SpriteSheet.js"></script>
+<script src="src/BoundingBox.js"></script>
+<script src="src/Compositor.js"></script>
+<script src="src/MusicPlayer.js"></script>
+<script src="src/Timer.js"></script>
+<script src="src/KeyboardState.js"></script>
+<script src="src/Trait.js"></script>
+<script src="src/entities/mario.js"></script>
+<script src="src/entities/goomba.js"></script>
+<script src="src/entities/koopa.js"></script>
+<script src="src/entities/bullet.js"></script>
+<script src="src/entities/cannon.js"></script>
+<script src="src/EventEmitter.js"></script>
+<script src="src/Level.js"></script>
+<script src="src/Camera.js"></script>
+<script src="src/debug.js"></script>
+<script src="src/TileCollider.js"></script>
+<script src="src/EntityCollider.js"></script>
+<script src="src/Vec2.js"></script>
+<script src="src/Entity.js"></script>
+<script src="src/layers.js"></script>
+<script src="src/loader.js"></script>
+<script src="src/main.js"></script>
+</html>
