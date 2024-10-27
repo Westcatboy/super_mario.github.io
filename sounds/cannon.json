@@ -1,7 +1,7 @@
 {
     "fx": {
         "shoot": {
-            "url": "./audio/thwomp.ogg"
+            "url": "https://westcatboy.github.io/super_mario.github.io/audio/thwomp.ogg"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "imageURL": "./img/sprites.png",
+    "imageURL": "https://westcatboy.github.io/super_mario.github.io/img/sprites.png",
     "frames": [
         {
             "name":"walk-1",

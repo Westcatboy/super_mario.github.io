@@ -45,7 +45,7 @@ function setUpEntities(levelSpec, level, entityFactory) {
 
 function loadFactory(entityFactory) {
     return function loadLevel(name) {
-        return loadJSON(`../levels/${name}.json`)
+        return loadJSON(`https://westcatboy.github.io/super_mario.github.io/levels/${name}.json`)
             .then(levelSpec => Promise.all([
                     levelSpec,
                     loadSpriteSheet(levelSpec.spriteSheet),
@@ -65,7 +65,7 @@ function loadFactory(entityFactory) {
 
 
 function loadMusicSheet(name) {
-    return loadJSON(`../music/${name}.json`)
+    return loadJSON(`https://westcatboy.github.io/super_mario.github.io/music/${name}.json`)
         .then((musicSpec) => {
             const musicPlayer = new MusicPlayer();
             for (const [name, track] of Object.entries(musicSpec)){
@@ -88,7 +88,7 @@ function createGrid(tiles, patterns) {
 
 
 function loadSpriteSheet(name) {
-    return loadJSON(`../sprites/${name}.json`)
+    return loadJSON(`https://westcatboy.github.io/super_mario.github.io/sprites/${name}.json`)
         .then(sheetSpec => Promise.all([
             sheetSpec,
             loadImage(sheetSpec.imageURL),
@@ -150,7 +150,7 @@ function createAudioLoader(context) {
 const CHARS = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
 
 function loadFont() {
-    return loadImage("../img/font.png")
+    return loadImage("https://westcatboy.github.io/super_mario.github.io/img/font.png")
         .then(image => {
             const fontSprite = new SpriteSheet(image);
             const size = 1;

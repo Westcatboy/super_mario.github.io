@@ -1,5 +1,5 @@
 {
-    "imageURL": "./img/tiles.png",
+    "imageURL": "https://westcatboy.github.io/super_mario.github.io/img/tiles.png",
     "tileW": 16,
     "tileH": 16,
     "tiles": [

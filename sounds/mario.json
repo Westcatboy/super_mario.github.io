@@ -1,13 +1,13 @@
 {
     "fx": {
         "jump": {
-            "url": "./audio/jump.ogg"
+            "url": "https://westcatboy.github.io/super_mario.github.io/audio/jump.ogg"
         },
         "stomp": {
-            "url": "./audio/stomp.ogg"
+            "url": "https://westcatboy.github.io/super_mario.github.io/audio/stomp.ogg"
         },
         "coin": {
-            "url": "./audio/coin.ogg"
+            "url": "https://westcatboy.github.io/super_mario.github.io/audio/coin.ogg"
         }
     }
 }
